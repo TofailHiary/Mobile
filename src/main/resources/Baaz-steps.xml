@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="lifecycleSteps" class="Baaz.Mobile.steps.LifecycleSteps">
+	</bean>
+	<bean id="steps" class="Baaz.Mobile.steps.LandingSteps">
+
+	</bean>
+	<bean id="baazlineSteps" class="Baaz.Mobile.steps.BaazlineSteps">
+
+	</bean>
+	<bean id="discussionSteps"
+		class="Baaz.Mobile.steps.DiscussionSteps">
+
+	</bean>
+	<bean id="trendingSteps" class="Baaz.Mobile.steps.TrendingSteps">
+
+	</bean>
+	<bean id="searchSteps" class="Baaz.Mobile.steps.SearchSteps">
+
+	</bean>
+
+	<bean id="profileSteps"
+		class="Baaz.Mobile.steps.ProfileAndSettingsSteps">
+
+	</bean>
+	<bean id="notificationsSteps"
+		class="Baaz.Mobile.steps.NotificationsSteps">
+
+	</bean>
+
+</beans>
